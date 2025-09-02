@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aurea Glow</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg px-4">
+  <div class="container-fluid position-relative">
+    <a class="navbar-brand" href="#">Aureas <span class="glow">Glow</span> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+     <!-- Centered Nav -->
+<ul class="navbar-nav mx-auto">
+  <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+  <li class="nav-item"><a class="nav-link" href="#skincare-section">About</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+</ul>
+      <!-- Right-aligned Button -->
+    <!-- Button for large screens -->
+<a href="#" class="btn btn-dark ms-auto d-none d-lg-inline-block">Book Now</a>
+
+<!-- Button for small/medium screens (inside menu) -->
+<a href="#" class="btn btn-dark my-2 d-lg-none">Book Now</a>
+
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="container col-xxl-8 px-4 min-vh-100 d-flex align-items-center" data-aos="fade-right" data-aos-duration="1000">
+  <div class="row flex-lg-row-reverse align-items-center g-5" >
+    <!-- Image on the right for lg+ screens -->
+    <div class="col-12 col-sm-8 col-lg-6">
+      <img src="img/home img.png" 
+           class="d-block mx-auto img-fluid" 
+           alt="Skincare Product" 
+           style="max-height: 80vh; object-fit: contain;" 
+           loading="lazy">
+    </div>
+
+    <!-- Text content on the left -->
+    <div class="col-lg-6 text-center text-lg-start" >
+      <h1 class="display-5 fw-bold">Love Your Skin,<br> <span class="glow">Every Day</span></h1>
+      <p class="mt-3">
+        Elevate Your Glow with Clean, Science-Backed Skincare—Cruelty-Free, Sustainable, and Packed with Antioxidants for Skin That Looks Healthy at Every Age.
+      </p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start justify-content-center">
+        <a href="#" class="btn btn-dark  me-md-2">Order Now</a>
+        <a href="#" class="btn btn-outline-dark">Find Out More</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="container-fluid stats-section text-center text-md-start"  data-aos="flip-left" data-aos-duration="1000" >
+    <div class="row justify-content-between align-items-center text-dark">
+      <div class="col-md-4 mb-3 mb-md-0">
+        <p class="mb-0 Trusted">Trusted by over <strong>10,000+</strong><br>clients worldwide since 2018.</p>
+      </div>
+
+      <div class="col-md-4 mb-3 mb-md-0 text-md-center">
+        <div class="stat-number">4.6 
+          <br><span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+        </div>
+        <p class="ratings">3,000+ ratings</p>
+      </div>
+
+      <div class="col-md-4 text-md-center">
+        <div class="stat-number">2M</div>
+         <p class="ratings">Verified products sold per year</p>
+      </div>
+    </div>
+  </div>
+  <!--  why section -->
+<section data-aos="zoom-in" data-aos-duration="1000">
+  <div class="container">
+    <h2 id="skincare-section" class="section-title">
+      Why Our Skincare is Good<br>for You – And Your Skin
+    </h2>
+    <div class="row benefits-grid">
+      <div class="col-lg-4 col-md-6">
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <h4 class="benefit-title">Deep Hydration Technology</h4>
+          <p class="benefit-description">Advanced moisture-locking formula penetrates deep into skin layers, 
+            providing 24-hour hydration for visibly plumper, healthier-looking skin.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <i class="fas fa-hand-holding-heart"></i>
+          </div>
+          <h4 class="benefit-title">Gentle Nourishment Formula</h4>
+          <p class="benefit-description">Enriched with botanical extracts and vitamins that nourish your skin naturally,
+            <br> leaving it soft, smooth, and radiant without irritation.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <i class="fas fa-medal"></i>
+          </div>
+          <h4 class="benefit-title">Proven Results You Can Trust</h4>
+          <p class="benefit-description">Clinically tested and dermatologist-approved formulations that deliver consistent, visible improvements in skin texture and appearance.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h4 class="benefit-title">Suitable for Daily Use</h4>
+          <p class="benefit-description">Perfect for morning and evening routines, gentle enough for sensitive skin while effective for all skin types and ages.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h4 class="benefit-title">Natural & Clean Ingredients</h4>
+          <p class="benefit-description">Free from harmful chemicals, parabens, and sulfates. Made with carefully selected natural ingredients for pure, effective skincare.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <h4 class="benefit-title">Visible Results in a Day</h4>
+          <p class="benefit-description">Experience noticeable improvements in skin texture, brightness, and overall health within just a few days of consistent use.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button class="cta-button">
+        <i class="fas fa-shopping-cart me-2"></i>
+        Shop Now
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="best-sellers-section py-5" data-aos="zoom-in-left" data-aos-duration="1000">
+  <div class="container">
+    <h2 class="section-title mb-4 text-center">Our Best Sellers</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card h-100 text-center">
+          <img src="img/Hydrating Serum.jpg" class="card-img-top" alt="Hydrating Serum" height="400vh">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Hydrating Serum</h5>
+            <p class="card-text mb-3">$29.99</p>
+            <button class="btn btn-primary mt-auto add-to-cart-btn" data-name="Hydrating Serum" data-price="29.99">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 text-center">
+          <img src="img/Gentle Cleanser.jpg" class="card-img-top" alt="Gentle Cleanser" height="400vh">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Gentle Cleanser</h5>
+            <p class="card-text mb-3">$19.99</p>
+            <button class="btn btn-primary mt-auto add-to-cart-btn" data-name="Gentle Cleanser" data-price="19.99">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 text-center">
+          <img src="img/Nourishing Moisturizer.jpg" class="card-img-top" alt="Nourishing Moisturizer" height="400vh">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Nourishing Moisturizer</h5>
+            <p class="card-text mb-3">$34.99</p>
+            <button class="btn btn-primary mt-auto add-to-cart-btn" data-name="Nourishing Moisturizer" data-price="34.99">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 text-center">
+          <img src="img/Revitalizing Eye Cream.jpg" class="card-img-top" alt="Revitalizing Eye Cream" height="400vh">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Revitalizing Eye Cream</h5>
+            <p class="card-text mb-3">$24.99</p>
+            <button class="btn btn-primary mt-auto add-to-cart-btn" data-name="Revitalizing Eye Cream" data-price="24.99">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 text-center">
+          <img src="img/Brightening Mask.jpg" class="card-img-top" alt="Brightening Mask" height="400vh">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Brightening Mask</h5>
+            <p class="card-text mb-3">$27.99</p>
+            <button class="btn btn-primary mt-auto add-to-cart-btn" data-name="Brightening Mask" data-price="27.99">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 text-center">
+          <img src="img/Soothing Toner.jpg" class="card-img-top" alt="Soothing Toner" height="400vh">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Soothing Toner</h5>
+            <p class="card-text mb-3">$21.99</p>
+            <button class="btn btn-primary mt-auto add-to-cart-btn" data-name="Soothing Toner" data-price="21.99">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="features-section py-5" style=" background-color: #fef9f7;"  data-aos="zoom-out-up" data-aos-duration="1000">
+  <div class="container">
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <h2 class="feature-title">Clean Formulas.</h2>
+        <h2 class="feature-title">Visible Changes.</h2>
+        <h2 class="feature-title">Zero Compromises.</h2>
+        <p class="feature-text">Formulated with natural, safe ingredients to nurture your skin without any harsh chemicals.</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="img/042665ecc648abbb1a4b3d91b42d94ad-removebg-preview.png" alt="Clean Formulas" class="img-fluid rounded" height="200vh" width="400" />
+      </div>
+    </div>
+</section>
+
+<section class="review-section py-5" style="background-color: #f3d7d7;" data-aos="zoom-out-left" data-aos-duration="1000">
+  <div class="container">
+    <h2 class="text-center mb-5 Review">What Our Customers Are Saying</h2>
+    <div class="row g-4">
+      
+      <!-- Review 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 p-3">
+          <div class="d-flex align-items-center mb-3">
+            <img src="img/amaka.jpg" class="rounded-circle me-3" alt="User 1" width="60" height="60">
+            <div>
+              <h5 class="mb-0">Amaka E.</h5>
+              <small class="text-muted">Lagos, NG</small>
+            </div>
+          </div>
+          <p class="mb-3">“I've never seen my skin this smooth. The hydration is unreal. Highly recommend the serum!”</p>
+          <div class="text-warning">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 p-3">
+          <div class="d-flex align-items-center mb-3">
+            <img src="img/jessica.jpg" class="rounded-circle me-3" alt="User 2" width="60" height="60">
+            <div>
+              <h5 class="mb-0">Jessica T.</h5>
+              <small class="text-muted">Abuja, NG</small>
+            </div>
+          </div>
+          <p class="mb-3">“The brightening mask gave me visible glow within a week! Love that it’s all natural.”</p>
+          <div class="text-warning">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 p-3">
+          <div class="d-flex align-items-center mb-3">
+            <img src="img/chioma.jpg" class="rounded-circle me-3" alt="User 3" width="60" height="60">
+            <div>
+              <h5 class="mb-0">Chioma O.</h5>
+              <small class="text-muted">PH, NG</small>
+            </div>
+          </div>
+          <p class="mb-3">“My skin feels healthier and more radiant. Plus, no breakouts!”</p>
+          <div class="text-warning">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="newsletter-section" data-aos="zoom-in" data-aos-duration="1000">
+  <div class="container text-center">
+    <h2 class="newsletter-title">Subscribe to Our Newsletter</h2>
+    <p class="newsletter-text">Be the first to know about new arrivals, exclusive deals, and skincare tips.</p>
+    
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+
+      <!-- Brand Info -->
+      <div class="col-md-4">
+        <h4 class="footer-title team">Glow Essence</h4>
+        <p>Glow Essence is dedicated to gentle, science-backed skincare made with nature's finest ingredients. Feel confident in your skin—every day, naturally.</p>
+      </div>
+
+      <!-- Explore Links -->
+      <div class="col-md-2">
+        <h5>Explore</h5>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Support -->
+      <div class="col-md-3">
+        <h5>Support</h5>
+        <ul class="footer-links">
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Shipping & Returns</a></li>
+          <li><a href="#">Skin Quiz</a></li>
+          <li><a href="#">My Account</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3">
+        <h5>Get in Touch</h5>
+        <p>Email: hello@glowessence.com</p>
+        <p>Phone: +234 901 234 5678</p>
+        <p>Address: 25 Glow Street, Lekki Phase 1, Lagos</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <p class="footer-bottom text-center">&copy; 2025 Glow Essence. All Rights Reserved.</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
